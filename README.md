@@ -4,7 +4,7 @@
 
 ## 🌐 Demo
 
-[View Live Site](#) <>
+[View Live Site](#) <https://st10471198.github.io/GLOWBEAUTY2.0/>
 
 ## 💻 Project Overview
 
