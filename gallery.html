@@ -3,35 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beauty Glow|Gallery</title></title>
+    <title>Beauty Glow | Gallery</title>
+    <link rel="stylesheet" href="CSS/gallery.css">
 </head>
 <body>
-    <h1><u>Gallery</u></h1>
-    <div>
-       <ul>
-        <a href="./index.html">Home</a>
-        <a href="./gallery.html">Gallery</a>
-        <a href="./news.html">News</a>
-        <a href="./contact.html">Contact us</a>          
-        <a href="./about.html">About us </a>
-       </ul> 
-    </div>
-    <h2>Our Product range</h2>
-    <!--Showing customers what to expect in their orders-->
-    <img src="Images/WhatsApp Image 2025-08-21 at 12.13.34 (1).jpeg" alt="" height="400px" width="400px">
-    <img src="Images/WhatsApp Image 2025-08-21 at 12.13.34 (2).jpeg" alt="" height="400px" width="400px">
-    <img src="Images/WhatsApp Image 2025-08-21 at 12.13.34 (3).jpeg" alt="" height="400px" width="400px">
-    <img src="Images/WhatsApp Image 2025-08-21 at 12.13.34 (4).jpeg" alt="" height="400px" width="400px">
-    <img src="Images/WhatsApp Image 2025-08-21 at 12.13.34 (5).jpeg" alt="" height="400px" width="400px">
-    <img src="Images/WhatsApp Image 2025-08-21 at 12.13.34 (6).jpeg" alt="" height="400px" width="400px">
-    <img src="Images/WhatsApp Image 2025-08-21 at 12.13.34 (7).jpeg" alt="" height="400px" width="400px">
-    <img src="Images/WhatsApp Image 2025-08-21 at 12.13.34.jpeg" alt="" height="400px" width="400px">
+    <header>
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="Images/Logo.jpg" width="100" height="100" alt="Beauty Glow Logo">
+            </div>
+            <nav class="nav-container">
+                <a href="./index.html">Home</a>
+                <a href="./gallery.html" class="active">Gallery</a>
+                <a href="./news.html">News</a>
+                <a href="./contact.html">Contact us</a>          
+                <a href="./about.html">About us</a>
+            </nav> 
+        </div>
+    </header>
 
-    <h2>Results seen after a week</h2>
-    <!--Showing our customers the results obtained from using our products-->
-    <img src="Images/WhatsApp Image 2025-08-21 at 13.50.33_96a91c10.jpg" alt="" height="400px" width="400px">
+    <main>
+        <div class="page-header">
+            <h1><span class="underline">Gallery</span></h1>
+            <p class="tagline">Discover our premium skincare collection</p>
+        </div>
+
+        <div class="container">
+            <section class="gallery-section">
+                <h2>Our Product Range</h2>
+                <p class="section-description">Showing customers what to expect in their orders</p>
+                
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="Images/WhatsApp Image 2025-08-21 at 12.13.34 (1).jpeg" alt="Beauty Glow Product 1">
+                        <div class="image-overlay">
+                            <p>Premium Skincare Solution</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Images/WhatsApp Image 2025-08-21 at 12.13.34 (2).jpeg" alt="Beauty Glow Product 2">
+                        <div class="image-overlay">
+                            <p>Natural Ingredients</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Images/WhatsApp Image 2025-08-21 at 12.13.34 (3).jpeg" alt="Beauty Glow Product 3">
+                        <div class="image-overlay">
+                            <p>Dermatologically Tested</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Images/WhatsApp Image 2025-08-21 at 12.13.34 (4).jpeg" alt="Beauty Glow Product 4">
+                        <div class="image-overlay">
+                            <p>Gentle Formulation</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Images/WhatsApp Image 2025-08-21 at 12.13.34 (5).jpeg" alt="Beauty Glow Product 5">
+                        <div class="image-overlay">
+                            <p>Visible Results</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Images/WhatsApp Image 2025-08-21 at 12.13.34 (6).jpeg" alt="Beauty Glow Product 6">
+                        <div class="image-overlay">
+                            <p>Skin Renewal</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Images/WhatsApp Image 2025-08-21 at 12.13.34 (7).jpeg" alt="Beauty Glow Product 7">
+                        <div class="image-overlay">
+                            <p>Radiant Complexion</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Images/WhatsApp Image 2025-08-21 at 12.13.34.jpeg" alt="Beauty Glow Product 8">
+                        <div class="image-overlay">
+                            <p>Complete Care</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="results-section">
+                <h2>Results Seen After a Week</h2>
+                <p class="section-description">Showing our customers the results obtained from using our products</p>
+                
+                <div class="results-container">
+                    <div class="result-item">
+                        <img src="Images/WhatsApp Image 2025-08-21 at 13.50.33_96a91c10.jpg" alt="Results after using Beauty Glow products">
+                        <div class="result-info">
+                            <h3>Visible Transformation</h3>
+                            <p>Our customers report noticeable improvements in skin texture, tone, and radiance within just one week of consistent use. The gentle yet effective formulation works to restore your natural glow.</p>
+                            <ul>
+                                <li>Improved skin texture</li>
+                                <li>Reduced appearance of blemishes</li>
+                                <li>Enhanced natural radiance</li>
+                                <li>Balanced skin tone</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
     <footer>
-        <p>&copy;ST10471198</p>
-    </footer>    
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Beauty Glow</h3>
+                    <p>Creating radiant beauty with care and expertise since 2020.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Get In Touch</h3>
+                    <p>Johannesburg City Center, Johannesburg, 2000</p>
+                    <p>Phone: +27 87 654 3210</p>
+                    <p>Email: contact@beautyglow.co.za</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Navigation</h3>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About Us</a></li>
+                        <li><a href="./gallery.html">Services</a></li>
+                        <li><a href="./gallery.html">Portfolio</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Beauty Glow. All Rights Reserved. | ST10471198</p>
+            </div>
+        </div>
+    </footer>
 </body>
-</html
+</html>

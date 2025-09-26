@@ -3,30 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beauty Glow|News</title></title>
+    <title>Beauty Glow | News</title>
+    <link rel="stylesheet" href="CSS/news.css">
 </head>
 <body>
-    <h1>News</h1>
-    <div>
-        <ul>
-         <a href="./index.html">Home</a>
-         <a href="./gallery.html">Gallery</a>
-         <a href="./news.html">News</a>
-         <a href="./contact.html">Contact us</a>         
-         <a href="./about.html">About us </a>
-        </ul> 
-     </div>
-     <!--this is where we show our customers our new releases and what the products do-->
-      <h2>Introducing our new Capsule serum and heartleaf spot pad</h2>
-      <p>Hey Glow getters! We are excited to launch our two new products ;our heartleaf spot pad.This nourishing formula is designed to clear all the spots you may have on your face , showing a difference within two weeks.With cordata extract , that is good for skin hydration and maintaining moisture in the skin. </p>
-       <img src="Images//WhatsApp Image 2025-08-21 at 12.13.34 (3).jpeg" alt="" height="400px" width="400px">
+    <header>
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="Images/Logo.jpg" width="100" height="100" alt="Beauty Glow Logo">
+            </div>
+            <nav class="nav-container">
+                <a href="./index.html">Home</a>
+                <a href="./gallery.html">Gallery</a>
+                <a href="./news.html" class="active">News</a>
+                <a href="./contact.html">Contact us</a>          
+                <a href="./about.html">About us</a>
+            </nav> 
+        </div>
+    </header>
 
-      <h3>Our Capsule serum</h3>
-      <p> Our Capsule serum soothes the face and brings glow .With Asiatic Acid and Madecassic Acid the skin is protected from sun damage and aging skin. They also reduce glycative activity ,which is one of the causes for skin aging.</p>
-      <img src="Images/WhatsApp Image 2025-08-21 at 12.13.34 (1).jpeg"  alt="" height="400px" width="400px">
-    
-      <footer>
-        <p>&copy;ST10471198</p>
-    </footer>    
+    <main>
+        <div class="page-header">
+            <h1><span class="underline">News & Updates</span></h1>
+            <p class="tagline">Stay informed about our latest products and skincare innovations</p>
+        </div>
+
+        <div class="container">
+            <!--this is where we show our customers our new releases and what the products do-->
+            <article class="news-article">
+                <div class="article-header">
+                    <h2>Introducing our new Capsule Serum and Heartleaf Spot Pad</h2>
+                    <div class="article-meta">
+                        <span class="date">August 25, 2025</span>
+                        <span class="category">New Product Launch</span>
+                    </div>
+                </div>
+                
+                <div class="article-content">
+                    <div class="text-content">
+                        <p>Hey Glow Getters! We are excited to launch our two new products: our Heartleaf Spot Pad. This nourishing formula is designed to clear all the spots you may have on your face, showing a difference within two weeks. With Cordata extract that is good for skin hydration and maintaining moisture in the skin.</p>
+                    </div>
+                    <div class="image-content">
+                        <img src="Images/WhatsApp Image 2025-08-21 at 12.13.34 (3).jpeg" alt="Heartleaf Spot Pad" class="product-image">
+                        <p class="image-caption">Our new Heartleaf Spot Pad with Cordata extract</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="news-article">
+                <div class="article-header">
+                    <h3>Our Capsule Serum</h3>
+                    <div class="article-meta">
+                        <span class="date">August 25, 2025</span>
+                        <span class="category">Product Feature</span>
+                    </div>
+                </div>
+                
+                <div class="article-content reverse">
+                    <div class="text-content">
+                        <p>Our Capsule Serum soothes the face and brings glow. With Asiatic Acid and Madecassic Acid the skin is protected from sun damage and aging skin. They also reduce glycative activity, which is one of the causes for skin aging.</p>
+                        <div class="benefits">
+                            <h4>Key Benefits:</h4>
+                            <ul>
+                                <li>Protects against sun damage</li>
+                                <li>Reduces signs of aging</li>
+                                <li>Soothes and revitalizes skin</li>
+                                <li>Brings natural glow to complexion</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="image-content">
+                        <img src="Images/WhatsApp Image 2025-08-21 at 12.13.34 (1).jpeg" alt="Capsule Serum" class="product-image">
+                        <p class="image-caption">Our revolutionary Capsule Serum with Asiatic Acid</p>
+                    </div>
+                </div>
+            </article>
+
+            <section class="newsletter">
+                <div class="newsletter-container">
+                    <h3>Stay Updated</h3>
+                    <p>Subscribe to our newsletter to be the first to know about new product launches, special offers, and skincare tips.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email address" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Beauty Glow</h3>
+                    <p>Creating radiant beauty with care and expertise since 2020.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Get In Touch</h3>
+                    <p>Johannesburg City Center, Johannesburg, 2000</p>
+                    <p>Phone: +27 87 654 3210</p>
+                    <p>Email: contact@beautyglow.co.za</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Navigation</h3>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About Us</a></li>
+                        <li><a href="./gallery.html">Services</a></li>
+                        <li><a href="./gallery.html">Portfolio</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Beauty Glow. All Rights Reserved. | ST10471198</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
